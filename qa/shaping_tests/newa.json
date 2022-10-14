@@ -1,6 +1,12 @@
 {
     "tests": [
         {
+            "input": "𑐬𑑂𑐰𑐾",
+            "expectation": "Wa.nohd=0+596|E_dv=0@27,0+0|RephaE=0@27,0+0",
+            "note": "Attach reph to base+E_dv",
+            "only": "NotoSansNewa-Regular.ttf"
+        },
+        {
             "expectation": "Ha.icd.alt=0+760|Ddha.cd=0@-209,0+0|Ra.icd=3+466|Virama=3+0|space=3+0|Nyha=6+730",
             "input": "𑐴𑑂𑐝𑐬𑑂‍𑐙",
             "note": "Added by SIESTA",
@@ -805,7 +811,7 @@
             "only": "NotoSansNewa-Regular.ttf"
         },
         {
-            "expectation": "Dda.icd.rt=0+452|Dha.cd=0@15,0+0|Rha=3+691|Virama=3@-142,70+0|Ma=5+588|E_dv.alt=6+235|Dha=6+556|NullMark=6+0|AA_dv.alt2=6+213|Repha=6@-296,284+0",
+            "expectation": "Dda.icd.rt=0+452|Dha.cd=0@15,0+0|Rha=3+691|Virama=3@-142,70+0|Ma=5+588|E_dv.alt=6+235|Dha=6+556|AA_dv.alt2=6+213|Repha=6@-296,284+0",
             "input": "𑐜𑑂𑐢𑐭𑑂𑐩𑐬𑑂𑐢𑑀",
             "note": "Added by SIESTA",
             "only": "NotoSansNewa-Regular.ttf"
