@@ -5,7 +5,7 @@
             "expectation": "LL_iv=0+567|Virama=0@-9,-151+0",
             "note": "Attach to LL_iv",
             "only": "NotoSansNewa-Regular.ttf"
-        }
+        },
         {
             "input": "𑐬𑑂𑐰𑐾",
             "expectation": "Wa.nohd=0+596|E_dv=0@27,0+0|RephaE=0@27,0+0",
