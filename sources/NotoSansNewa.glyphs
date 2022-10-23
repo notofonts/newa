@@ -1,8 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/Repha/E_dv/Wa.nohd",
-"/E_dv"
+"/Virama/LL_iv/Virama"
 );
 classes = (
 {
@@ -2235,7 +2234,7 @@ category = Letter;
 },
 {
 glyphname = A_iv;
-lastChange = "2020-09-28 13:14:50 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -2338,6 +2337,8 @@ width = 638;
 }
 );
 unicode = 11400;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = AA_iv;
@@ -2466,7 +2467,7 @@ category = Letter;
 },
 {
 glyphname = I_iv;
-lastChange = "2020-09-28 13:14:50 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -2615,6 +2616,8 @@ width = 755;
 }
 );
 unicode = 11402;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = II_iv;
@@ -2783,7 +2786,7 @@ category = Letter;
 },
 {
 glyphname = U_iv;
-lastChange = "2020-09-28 13:14:50 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -2852,6 +2855,8 @@ width = 549;
 }
 );
 unicode = 11404;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = UU_iv;
@@ -2953,7 +2958,7 @@ category = Letter;
 },
 {
 glyphname = R_iv;
-lastChange = "2020-09-28 13:14:52 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -3057,6 +3062,8 @@ width = 710;
 }
 );
 unicode = 11406;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = Rr_iv;
@@ -3193,7 +3200,7 @@ category = Letter;
 },
 {
 glyphname = L_iv;
-lastChange = "2020-09-28 13:14:52 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -3253,10 +3260,12 @@ width = 560;
 }
 );
 unicode = 11408;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = LL_iv;
-lastChange = "2020-09-28 13:14:52 +0000";
+lastChange = "2022-10-23 19:12:21 +0000";
 layers = (
 {
 anchors = (
@@ -3342,10 +3351,11 @@ width = 567;
 );
 unicode = 11409;
 category = Letter;
+subCategory = Other;
 },
 {
 glyphname = E_iv;
-lastChange = "2020-09-28 13:14:50 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -3407,6 +3417,8 @@ width = 544;
 }
 );
 unicode = 1140A;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = AI_iv;
@@ -3507,7 +3519,7 @@ category = Letter;
 },
 {
 glyphname = O_iv;
-lastChange = "2020-09-28 13:14:50 +0000";
+lastChange = "2022-10-23 19:15:43 +0000";
 layers = (
 {
 anchors = (
@@ -3614,6 +3626,8 @@ width = 750;
 }
 );
 unicode = 1140C;
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = AU_iv;
