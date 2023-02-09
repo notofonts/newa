@@ -1,8 +1,17 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.10
+Fontbakery version: 0.8.11b0
 
-<details><summary><b>[5] NotoSansNewa-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+<details><summary><b>[8] NotoSansNewa-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 2.0070037841796875 is equal to version on Google Fonts.
+* 🔥 **FAIL** Version number 2.0070037841796875 is equal to version on Google Fonts GitHub repo.
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+
+
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/newa.json: Expected and actual shaping not matching
@@ -27,6 +36,32 @@ Fontbakery version: 0.8.10
 </style>
 
 <h4>qa/shaping_tests/newa.json: Expected and actual shaping not matching</h4>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">𑐬𑑂𑐎𑐶𑑃</span> (Issue #9)</li>
+
+
+<pre>Expected: I_dv_Repha=0+586|Ka=0@-375,0+305|Candrabindu.sm=0@-72,-8+0</pre>
+
+
+
+<pre>Got     : I_dv_Repha=0+586|Ka=0@-375,0+305|NullMark=0+0|Candrabindu.sm=0@-72,-8+0</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891 2432" transform="matrix(1 0 0 -1 0 0)">
+<path d="M50.0,551.0L0.0,551.0L0.0,622.0L46.0,622.0Q33.0,642.0 22.0,671.5Q11.0,701.0 11.0,733.0Q11.0,787.0 47.0,826.0Q83.0,865.0 164.0,865.0Q208.0,865.0 246.5,851.0Q285.0,837.0 327.0,811.0L327.0,814.0Q327.0,852.0 345.5,883.0Q364.0,914.0 397.0,932.5Q430.0,951.0 473.0,951.0Q496.0,951.0 524.5,948.5Q553.0,946.0 582.0,932.0L567.0,855.0Q547.0,872.0 519.0,876.0Q491.0,880.0 476.0,880.0Q446.0,880.0 423.0,862.0Q400.0,844.0 400.0,812.0Q400.0,780.0 422.5,753.5Q445.0,727.0 474.0,704.0L494.0,689.0Q504.0,681.0 514.0,673.5Q524.0,666.0 533.0,659.0L533.0,659.0L585.0,619.0L543.0,569.0L365.0,706.0Q315.0,744.0 269.0,768.5Q223.0,793.0 177.0,793.0Q137.0,793.0 119.0,779.0Q101.0,765.0 96.5,748.0Q92.0,731.0 92.0,720.0Q92.0,696.0 102.5,669.0Q113.0,642.0 128.0,622.0L251.0,622.0L251.0,551.0L131.0,551.0L131.0,0.0L50.0,0.0L50.0,551.0Z"  transform="translate(0, 896)"/>
+<path d="M0.0,551.0L0.0,622.0L690.0,622.0L690.0,551.0L375.0,551.0L375.0,468.0Q496.0,456.0 557.5,392.5Q619.0,329.0 619.0,230.0L619.0,0.0L539.0,0.0L539.0,228.0Q539.0,269.0 523.0,304.5Q507.0,340.0 471.0,364.5Q435.0,389.0 375.0,397.0L375.0,0.0L294.0,0.0L294.0,152.0Q249.0,131.0 200.0,131.0Q159.0,131.0 122.0,148.0Q85.0,165.0 62.5,199.5Q40.0,234.0 40.0,286.0Q40.0,346.0 74.5,385.5Q109.0,425.0 166.5,445.5Q224.0,466.0 294.0,469.0L294.0,551.0L0.0,551.0ZM116.0,284.0Q116.0,244.0 142.5,224.5Q169.0,205.0 209.0,205.0Q234.0,205.0 255.5,211.5Q277.0,218.0 294.0,230.0L294.0,399.0Q207.0,395.0 161.5,365.0Q116.0,335.0 116.0,284.0Z"  transform="translate(211, 896)"/>
+<path d=""  transform="translate(891, 896)"/>
+<path d="M-300.0,815.0Q-294.0,809.0 -286.0,806.5Q-278.0,804.0 -271.0,804.0Q-257.0,804.0 -251.5,811.0Q-246.0,818.0 -246.0,825.0Q-246.0,836.0 -257.5,843.5Q-269.0,851.0 -293.0,851.0L-293.0,904.0L-250.0,904.0L-250.0,880.0Q-230.0,876.0 -216.0,862.5Q-202.0,849.0 -202.0,824.0Q-202.0,802.0 -218.5,782.5Q-235.0,763.0 -272.0,763.0Q-288.0,763.0 -303.5,772.0Q-319.0,781.0 -327.0,794.0L-300.0,815.0ZM-374.0,796.0Q-357.0,772.0 -327.5,754.5Q-298.0,737.0 -264.0,737.0Q-232.0,737.0 -205.0,755.0Q-178.0,773.0 -162.0,796.0L-119.0,760.0Q-146.0,719.0 -183.5,699.5Q-221.0,680.0 -264.0,680.0Q-307.0,680.0 -347.5,698.5Q-388.0,717.0 -417.0,760.0L-374.0,796.0Z"  transform="translate(819, 888)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891 2432" transform="matrix(1 0 0 -1 0 0)">
+<path d="M50.0,551.0L0.0,551.0L0.0,622.0L46.0,622.0Q33.0,642.0 22.0,671.5Q11.0,701.0 11.0,733.0Q11.0,787.0 47.0,826.0Q83.0,865.0 164.0,865.0Q208.0,865.0 246.5,851.0Q285.0,837.0 327.0,811.0L327.0,814.0Q327.0,852.0 345.5,883.0Q364.0,914.0 397.0,932.5Q430.0,951.0 473.0,951.0Q496.0,951.0 524.5,948.5Q553.0,946.0 582.0,932.0L567.0,855.0Q547.0,872.0 519.0,876.0Q491.0,880.0 476.0,880.0Q446.0,880.0 423.0,862.0Q400.0,844.0 400.0,812.0Q400.0,780.0 422.5,753.5Q445.0,727.0 474.0,704.0L494.0,689.0Q504.0,681.0 514.0,673.5Q524.0,666.0 533.0,659.0L533.0,659.0L585.0,619.0L543.0,569.0L365.0,706.0Q315.0,744.0 269.0,768.5Q223.0,793.0 177.0,793.0Q137.0,793.0 119.0,779.0Q101.0,765.0 96.5,748.0Q92.0,731.0 92.0,720.0Q92.0,696.0 102.5,669.0Q113.0,642.0 128.0,622.0L251.0,622.0L251.0,551.0L131.0,551.0L131.0,0.0L50.0,0.0L50.0,551.0Z"  transform="translate(0, 896)"/>
+<path d="M0.0,551.0L0.0,622.0L690.0,622.0L690.0,551.0L375.0,551.0L375.0,468.0Q496.0,456.0 557.5,392.5Q619.0,329.0 619.0,230.0L619.0,0.0L539.0,0.0L539.0,228.0Q539.0,269.0 523.0,304.5Q507.0,340.0 471.0,364.5Q435.0,389.0 375.0,397.0L375.0,0.0L294.0,0.0L294.0,152.0Q249.0,131.0 200.0,131.0Q159.0,131.0 122.0,148.0Q85.0,165.0 62.5,199.5Q40.0,234.0 40.0,286.0Q40.0,346.0 74.5,385.5Q109.0,425.0 166.5,445.5Q224.0,466.0 294.0,469.0L294.0,551.0L0.0,551.0ZM116.0,284.0Q116.0,244.0 142.5,224.5Q169.0,205.0 209.0,205.0Q234.0,205.0 255.5,211.5Q277.0,218.0 294.0,230.0L294.0,399.0Q207.0,395.0 161.5,365.0Q116.0,335.0 116.0,284.0Z"  transform="translate(211, 896)"/>
+<path d="M-300.0,815.0Q-294.0,809.0 -286.0,806.5Q-278.0,804.0 -271.0,804.0Q-257.0,804.0 -251.5,811.0Q-246.0,818.0 -246.0,825.0Q-246.0,836.0 -257.5,843.5Q-269.0,851.0 -293.0,851.0L-293.0,904.0L-250.0,904.0L-250.0,880.0Q-230.0,876.0 -216.0,862.5Q-202.0,849.0 -202.0,824.0Q-202.0,802.0 -218.5,782.5Q-235.0,763.0 -272.0,763.0Q-288.0,763.0 -303.5,772.0Q-319.0,781.0 -327.0,794.0L-300.0,815.0ZM-374.0,796.0Q-357.0,772.0 -327.5,754.5Q-298.0,737.0 -264.0,737.0Q-232.0,737.0 -205.0,755.0Q-178.0,773.0 -162.0,796.0L-119.0,760.0Q-146.0,719.0 -183.5,699.5Q-221.0,680.0 -264.0,680.0Q-307.0,680.0 -347.5,698.5Q-388.0,717.0 -417.0,760.0L-374.0,796.0Z"  transform="translate(819, 888)"/>
+</svg>
 
 
 </div>
@@ -179,8 +214,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
+
+
+* ⚠ **WARN** The most common width is 572 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:
+
+Width = 322:
+minus
+ [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -194,14 +238,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* Nya (U+11418): B<<639.0,303.0>-<610.0,330.0>-<563.0,331.0>>/L<<563.0,331.0>--<563.0,331.0>> = 1.2188752351313326 
 
-	* And Nya (U+11418): L<<563.0,331.0>--<563.0,331.0>>/B<<563.0,331.0>-<552.0,329.0>-<541.0,329.0>> = 10.304846468766044 [code: found-jaggy-segments]
+	* Nya (U+11418): L<<563.0,331.0>--<563.0,331.0>>/B<<563.0,331.0>-<552.0,329.0>-<541.0,329.0>> = 10.304846468766044 [code: found-jaggy-segments]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 4 | 110 | 7 | 105 | 0 |
-| 0% | 0% | 2% | 48% | 3% | 46% | 0% |
+| 0 | 3 | 5 | 116 | 7 | 109 | 0 |
+| 0% | 1% | 2% | 48% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
