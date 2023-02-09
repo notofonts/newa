@@ -1,6 +1,12 @@
 {
     "tests": [
         {
+            "input": "𑐬𑑂𑐎𑐶𑑃",
+            "expectation": "I_dv_Repha=0+586|Ka=0@-375,0+305|Candrabindu.sm=0@-72,-8+0",
+            "note": "Issue #9",
+            "only": "NotoSansNewa-Regular.ttf"
+        },
+        {
             "input": "𑐉𑑂",
             "expectation": "LL_iv=0+567|Virama=0@-9,-151+0",
             "note": "Attach to LL_iv",
